@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Ease</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/payment.css') }}">
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="{{ url_for('static', filename='img/lotus.png') }}" alt="">
+            <div> YogaEase</div> 
+        </div>
+        <!-- mid for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/register.html">Register</a></li>
+                <li><a href="/changeSchedule.html">Renew</a></li>
+                <li><a href="/payment.html">Pay Fee</a></li>
+            </ul>
+        </div>
+        <!-- right for buttons -->
+        <!-- <div class="right">
+            <button class="btn">
+                Call us 
+            </button>
+            <button class="btn">
+                Follow us on
+            </button>
+        </div> -->
+    </header>
+    <div class="main">
+        
+        <div class="infoContainer">
+            
+            <div class="webInfo">
+                <h1>Enter Payment Details</h1>
+                <img src="{{ url_for('static', filename='/img/413001-PE73CF-559-removebg-preview.png') }}" alt="">
+                <form id="form"action = "" method="post">
+                    
+                    <div class="form-group">
+                        <input type="text" name="email" placeholder="Enter your email">
+                        <div class="error">{{ error_messages.email }}</div>
+                    </div>
+                    <div class="form-group">
+                        <!-- <label for="age">Age</label> -->
+                        <input type="submit" value="submit">
+                        <div class="error">{{ error_messages.exists }}</div>
+                        
+                    </div>
+                    <!-- <button class="btn" type="submit">Pay &#x20B9;500</button> -->
+                </form>
+            </div>
+            <div class="devPic">
+                <h1> Make Secure Payment</h1>
+                <h1>on YogaEase</h1>
+                <img src="{{ url_for('static', filename='img/6134225.jpg') }}" alt="">
+                <!-- <button class="btn" >Pay &#x20B9;500</button> -->
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

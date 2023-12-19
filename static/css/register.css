@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+body{
+    font-family: 'Hedvig Letters Serif', serif;
+    color:rgb(42, 38, 38);
+    background-image: url('img/register-bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background:linear-gradient(to right,   #EACEE7, #efd9e2,#e9dfe3, #f4edf0,  #faf2f6, #f6eff2, #f7f2f4, #f9f7f8);
+    height: 100vh; 
+    width: 100vw;
+}
+
+
+.left{
+    display: flex;
+    /* border : 2px solid rebeccapurple; */
+    position: absolute;
+    flex-direction: column;
+    left: 33px;
+    top:20px;
+}
+.left img{
+    padding-left: 10%;
+    width : 50px;
+    height: 50px;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 17px;
+    text-align: center;
+}
+.mid{
+    display: flex;
+    width: 54%;
+    margin: 20px auto;
+    /* border : 2px solid rgb(27, 30, 180); */
+}
+
+.navbar{
+    display :inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.navbar li a{
+    color: rgb(2, 1, 1);
+    text-decoration: none;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(186, 95, 176);
+}
+
+.infoContainer h1{
+    text-align: center;
+    margin-bottom: 44px;
+}
+.infoContainer button{
+    display: block;
+    width: 55%;
+    margin:20px  auto;
+}
+
+.main{
+    display: flex;
+    width:90vw;
+}
+
+.infoContainer {
+    height: 68vh;
+    width: 65vw;
+    margin: 65px auto;
+    background-color: #f6f6f6;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(245, 243, 243);
+    padding: 45px 2px;
+    border-radius: 28px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 55%;
+    padding: 2px;
+    border: 2px solid rgb(13, 72, 165);
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+    margin: 11px auto;
+}
+
+/* Style for the select element */
+select[name="batch"] {
+    text-align: center;
+    display: block;
+    width: 55%;
+    padding: 5px;
+    font-size: 18px; 
+    border: 2px solid rgb(13, 72, 165);
+    border-radius: 20px; 
+    appearance: none; 
+    outline: none; 
+    cursor: pointer; 
+    margin :11px auto;
+    font-family: 'Hedvig Letters Serif', serif;
+  }
+  
+  select[name="batch"] option {
+    padding: 10px; 
+    color: black;
+  }
+  
+  select[name="batch"] option[disabled] {
+    color: #999; 
+  }
+  
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    font-family: 'Dosis', sans-serif;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: #cc7cc7;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #cc7cc7;
+    background-color: aliceblue;
+}
+
+.form-group.success input{
+    border-color: green;
+}
+
+.form-group.error input{
+    border-color: rgb(230, 5, 5);
+}
+.form-group .error{
+    color: rgb(230, 5, 5);
+    font-size: 9px;
+}

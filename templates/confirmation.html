@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Ease</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+<!-- <link rel ="stylesheet" href ="css/style.css"> -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="{{ url_for('static', filename='img/lotus.png') }}" alt="">
+            <div> YogaEase</div> 
+        </div>
+        <!-- mid for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/register.html">Register</a></li>
+                <li><a href="/changeSchedule.html">Renew</a></li>
+                <li><a href="/payment.html">Pay Fee</a></li>
+            </ul>
+        </div>
+        <!-- right for buttons -->
+        <!-- <div class="right">
+            <button class="btn">
+                Call us 
+            </button>
+            <button class="btn">
+                Follow us on
+            </button>
+        </div> -->
+    </header>
+    <div class="main">
+        <div class="infoContainer">
+            <h1>Successfully Submitted!</h1>
+            <p>Thank you for registering</p>
+        </div>
+    </div>
+    
+</body>
+</html>
