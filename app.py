@@ -223,12 +223,12 @@ def payment():
         db.session.commit()
         
         # Render the payment confirmation page
-        return redirect(url_for("pay",usr=" :)"))
+        return redirect(url_for("pay",pyy=" :)"))
     return render_template('payment.html', error_messages=error_messages)
 # Example endpoint for handling POST requests
-@app.route('/<usr>')
-def pay(usr):
-    return f"<h1>Payment Successfull {usr} !</h1>"
+@app.route('/<pyy>')
+def pay(pyy):
+    return f"<h1>Payment Successfull {pyy} !</h1>"
     # return render_template('confirmation.html')
 
 
