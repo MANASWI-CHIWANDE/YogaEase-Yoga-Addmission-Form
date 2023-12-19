@@ -46,7 +46,7 @@ The application is deployed on Render - Cloud Application. You can access it htt
 
 #### 3. Registration flow
 
-    ![WhatsApp Image 2023-12-19 at 12 33 15 PM](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/aeb34922-c1c9-407c-a7f7-ac2a5f58c8b9)
+ ![WhatsApp Image 2023-12-19 at 12 33 15 PM](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/b014f879-1f84-4e99-9c56-748b938d29d6)
 
 ####  4. Renewal Flow
 
