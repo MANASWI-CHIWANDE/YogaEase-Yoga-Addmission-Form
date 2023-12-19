@@ -143,7 +143,7 @@ def register():
 # Example endpoint for handling POST requests
 @app.route('/<usr>')
 def user(usr):
-    return f"<h1>Successfully registered ,{usr} !</h1>"
+    return f"<h1>Done,{usr} !</h1>"
     # return render_template('confirmation.html')
 
 
@@ -223,13 +223,13 @@ def payment():
         db.session.commit()
         
         # Render the payment confirmation page
-        return redirect(url_for("pay",pyy=" :)"))
+        return redirect(url_for("user",usr=" :)"))
     return render_template('payment.html', error_messages=error_messages)
 # Example endpoint for handling POST requests
-@app.route('/<pyy>')
-def pay(pyy):
-    return f"<h1>Payment Successfull {pyy} !</h1>"
-    # return render_template('confirmation.html')
+# @app.route('/<pyy>')
+# def pay(pyy):
+#     return f"<h1>Payment Successfull {pyy} !</h1>"
+#     # return render_template('confirmation.html')
 
 
 
