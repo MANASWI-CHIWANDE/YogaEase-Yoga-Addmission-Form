@@ -1,6 +1,6 @@
 # YogaEase by Manaswi Chiwande
 
-The Yoga Studio Management System is a web application built using the Flask web framework, designed to manage user registrations, class schedules, and payments for a yoga studio. The application uses SQLite as the database to store user information, class schedules, and payment records. The application is deployed on Render.
+The YogaEase is a web application built using the Flask web framework, designed to manage user registrations, class schedules, and payments for a yoga studio. The application uses SQLite as the database to store user information, class schedules, and payment records. The application is deployed on Render.
 
 ### Documentation is in "YogaEase - Manaswi.docx-pages.pdf"
 
