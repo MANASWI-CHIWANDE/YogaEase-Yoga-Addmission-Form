@@ -65,9 +65,18 @@ In payment flow we assume , All the payment work and updating in database is don
 
 ## Frontend Designs
 #### 1. index page
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/de6f0e7f-f795-472e-819e-76b35a6104f0)
+
 #### 2. register page
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/68b7b74a-0037-43ce-a01b-be7ba4ed16c2)
+
 #### 3. renew page
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/876d32c6-f56e-442a-8d8a-b730ea590d2f)
+
 #### 4. payment page
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/a57a90e3-fd3c-4bea-8a0a-6dafd4a243c3)
+
+
 
 ## Backend Designs
 #### 1. Validation page
