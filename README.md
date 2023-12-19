@@ -55,7 +55,8 @@ The application is deployed on Render - Cloud Application. You can access it htt
 #### 5. Payment Flow
 In payment flow we assume , All the payment work and updating in database is done by Mock function complete payment. 
    
-    ![WhatsApp Image 2023-12-19 at 12 33 15 PM (2)](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/be924037-09f7-4183-abfc-8b73ca66c939)
+![WhatsApp Image 2023-12-19 at 12 33 15 PM (2)](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/61bfc90d-6b6b-4c14-b2e4-076d2572d508)
+
 ## Installation
 
 1. Clone the repository:
