@@ -24,7 +24,7 @@ The Yoga Studio Management System is a web application built using the Flask web
 - **HTML/CSS/JavaScript:** Frontend components for a user-friendly interface.
 
 ## Deployed on Render
-The application is deployed on Render. You can access it https://yogaease-manaswi-yoga-admission.onrender.com
+The application is deployed on Render - Cloud Application. You can access it https://yogaease-manaswi-yoga-admission.onrender.com
 
 ## Technologies Used
 
@@ -33,6 +33,14 @@ The application is deployed on Render. You can access it https://yogaease-manasw
 - **Waitress:** Production-ready WSGI server.
 - **HTML/CSS/JavaScript:** Frontend development.
 
+## Database Design Schema 
+1. ER diagram
+   ![WhatsApp Image 2023-12-19 at 12 33 15 PM (2)](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/be924037-09f7-4183-abfc-8b73ca66c939)
+![WhatsApp Image 2023-12-19 at 12 33 15 PM (1)](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/531d6426-e33d-4d96-8334-d4c0b89de68d)
+![WhatsApp Image 2023-12-19 at 12 33 15 PM](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/aeb34922-c1c9-407c-a7f7-ac2a5f58c8b9)
+![WhatsApp Image 2023-12-19 at 4 08 05 AM](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/aa0cf591-4111-4cc7-b88e-d0941f22e87e)
+![WhatsApp Image 2023-12-19 at 3 49 44 AM](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/5922c83c-c26b-4d76-9176-66e5d5a18f76)
+3. nm
 ## Installation
 
 1. Clone the repository:
