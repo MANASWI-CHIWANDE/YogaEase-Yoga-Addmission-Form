@@ -13,6 +13,11 @@ The Yoga Studio Management System is a web application built using the Flask web
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Database Design](#database-design)
+- [FrontEnd Design](#frontend-design)
+- [Backend Design](#backend-design)
+
+
+
 
 
 ## Features
@@ -56,6 +61,33 @@ The application is deployed on Render - Cloud Application. You can access it htt
 In payment flow we assume , All the payment work and updating in database is done by Mock function complete payment. 
    
 ![WhatsApp Image 2023-12-19 at 12 33 15 PM (2)](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/61bfc90d-6b6b-4c14-b2e4-076d2572d508)
+
+
+## Frontend Designs
+#### 1. index page
+#### 2. register page
+#### 3. renew page
+#### 4. payment page
+
+## Backend Designs
+#### 1. Validation page
+
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/e359f133-94df-40cc-aff2-a228803120ff)
+
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/5d7f47a7-2306-417d-bde0-be1748404852)
+
+### Data entered in form is stored in sqlite database named yoga.db
+#### 1. User Table
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/8be88f8f-8303-408a-99ff-7916ca8bc02e)
+#### 2. Batch Table
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/ad2e5d45-15b8-44d0-8476-4197d16e9d44)
+
+#### 3. Enrollment Table
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/382fa23c-0de2-493e-aa94-7ffb15c3bf63)
+
+#### 4. payment page
+![image](https://github.com/MANASWI-CHIWANDE/YogaEase-Yoga-Addmission-Form/assets/86121472/c5175528-d1a7-4a25-afec-6e94072dbd84)
+
 
 ## Installation
 
