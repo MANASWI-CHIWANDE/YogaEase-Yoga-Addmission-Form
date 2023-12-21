@@ -2,6 +2,7 @@
 
 The YogaEase is a web application built using the Flask web framework, designed to manage user registrations, class schedules, and payments for a yoga studio. The application uses SQLite as the database to store user information, class schedules, and payment records. The application is deployed on Render.
 
+
 ### Documentation is in "YogaEase - Manaswi.docx-pages.pdf"
 
 
@@ -30,6 +31,7 @@ The YogaEase is a web application built using the Flask web framework, designed 
 
 ## Deployed on Render
 The application is deployed on Render - Cloud Application. You can access it https://yogaease-manaswi-yoga-admission.onrender.com
+#### The extended loading time during the initial visit is primarily attributed to cold start delays as the server initializes as i'm using render free without any subscription.
 
 ## Technologies Used
 
